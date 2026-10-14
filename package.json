@@ -1,0 +1,16 @@
+{
+  "name": "red-arrows-bot",
+  "version": "1.0.0",
+  "description": "Red Arrows Team Utility Bot - Anti-Nuke, Automod, Applications, Modmail, Verification, and more",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "@supabase/supabase-js": "^2.45.4"
+  }
+}
